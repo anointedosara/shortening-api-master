@@ -1,0 +1,1403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.out {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    width: 100%
+}
+
+.div100 {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100000;
+}
+
+.drop {
+    display: none;
+}
+
+.down {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.div1 img {
+    width: 100px;
+    height: 28px;
+}
+
+.ul1 {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 -10px;
+}
+
+.ul1 a:hover {
+    color: hsl(180, 53%, 73%);
+}
+
+.ul1 a {
+    color: hsl(180, 66%, 49%);
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.ul1 li {
+    margin-right: 30px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+    font-weight: 700;
+    transition: 0.3s all ease;
+}
+
+.ul1 li:hover {
+    color: hsl(260, 8%, 14%);
+}
+
+.div2 {
+    display: flex;
+}
+
+.div2 div:first-child {
+    background: none;
+    padding: 5px 30px;
+    color: hsl(0, 1%, 61%);
+}
+
+.div2 div {
+    background: hsl(180, 66%, 49%);
+    padding: 5px 18px;
+    border-radius: 30px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s all ease;
+}
+
+.sign:hover {
+    background: hsl(180, 53%, 73%);
+}
+
+.div3 {
+    padding: 0px 100px 50px 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div4 {
+    width: 43%;
+}
+
+.div4 p:first-child {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 0;
+    color: hsl(260, 8%, 14%)
+}
+
+.div4 P {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+    margin: 10px 0 30px 0;
+}
+
+.div4 div {
+    background: hsl(180, 66%, 49%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    width: max-content;
+    transition: 0.3s all ease;
+}
+
+.div4 div:hover {
+    background: hsl(180, 53%, 73%);
+}
+
+.div5 {
+    width: 47%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/illustration-working.svg");
+    background-position: 0% 0%;
+}
+
+.div6 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    top: -74px;
+    padding: 0px 100px 50px 100px;
+}
+
+.div7 {
+    background-image: url("./images/bg-shorten-desktop.svg");
+    background-size: cover;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 10px;
+}
+
+input {
+    font-size: 16px;
+    padding: 15px 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}
+
+input:focus {
+    outline: 2px solid hsl(0, 87%, 67%);
+}
+
+#button {
+    font-size: 16px;
+    padding: 15px 20px;
+    width: 18%;
+    border-radius: 10px;
+    background: hsl(180, 66%, 49%);
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.show {
+    display: block !important;
+}
+
+#button:hover {
+    background: hsl(180, 53%, 73%);
+}
+
+.a {
+    text-decoration: none;
+    transition: 0.3s all ease;
+    color: hsl(260, 8%, 14%);
+}
+
+.a:hover {
+    color: hsl(0, 1%, 61%);
+}
+
+.wrap {
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    z-index: 10000;
+    display: none;
+}
+
+.div8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.div8 p {
+    margin: 0;
+    border-radius: 10px;
+}
+
+.div9 {
+    display: flex;
+    align-items: center;
+    background: hsl(180, 66%, 49%);
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.div10 {
+    padding: 170px 100px 100px 100px;
+    height: max-content;
+    max-width: 1440px;
+    margin: 80px auto 0 auto;
+    position: relative;
+}
+
+.cover {
+    background: hsl(255, 18%, 96%);
+}
+
+.div16 {
+    text-align: center;
+}
+
+.div16 p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.div16 .p1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(260, 8%, 14%);
+    margin-bottom: 10px;
+}
+
+.div16 .p2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+    margin-bottom: 10px;
+}
+
+.div11 {
+    height: 7px;
+    background: hsl(180, 66%, 49%);
+    max-width: 1440px;
+    margin: 250px auto 0 auto;
+}
+
+.div12 {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+
+.border {
+    background: hsl(255, 11%, 22%);
+    width: 75px;
+    padding: 15px 0 15px 18px;
+    border-radius: 50%;
+    margin: -35px 0 30px 15px;
+}
+
+.borde {
+    background: hsl(255, 11%, 22%);
+    width: 75px;
+    padding: 18px 1px 12px 17px;
+    border-radius: 50%;
+    margin: -35px 0 30px 15px;
+}
+
+.bord {
+    background: hsl(255, 11%, 22%);
+    width: 77px;
+    padding: 14px 0 8px 14px;
+    border-radius: 50%;
+    margin: -35px 0 30px 15px;
+}
+
+.div13 {
+    text-align: left;
+    padding: 0 25px 35px 25px;
+    border-radius: 10px;
+    background: white;
+    height: max-content
+}
+
+.div14 {
+    text-align: left;
+    padding: 0 25px 35px 25px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 35px;
+    height: max-content
+}
+
+.div15 {
+    text-align: left;
+    padding: 0 25px 35px 25px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 70px;
+    height: max-content
+}
+
+.div13 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+}
+
+.div14 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+}
+
+.div15 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+}
+
+.p3 {
+    color: hsl(255, 11%, 22%) !important;
+    font-size: 25px !important;
+    margin-bottom: 10px !important;
+    font-weight: 700 !important;
+}
+
+.div17 {
+    background: hsl(257, 27%, 26%);
+    background-image: url("./images/bg-boost-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div18 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 100px 50px 100px;
+}
+
+.div18 p {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.div18 div {
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+    padding: 12px 40px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 30px;
+    background: hsl(180, 66%, 49%);
+    transition: 0.3s all ease;
+}
+
+.div18 div:hover {
+    background: hsl(180, 53%, 73%);
+}
+
+.div19 {
+    background: hsl(260, 8%, 14%);
+}
+
+.div20 {
+    max-width: 1440px;
+    padding: 50px 100px 50px 100px;
+    margin: 0 auto;
+}
+
+.div21 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.div22 p {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.div23 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div23 div {
+    margin: 0 50px;
+}
+
+.div23 div p:first-child {
+    font-weight: 700;
+    color: white;
+}
+
+.div23 div p {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(0, 1%, 61%);
+    transition: 0.5s all ease;
+}
+
+.div23 div p:hover {
+    color: hsl(180, 66%, 49%);
+}
+
+.div24 img {
+    margin-right: 20px;
+}
+
+.p {
+    transition: 0.5s all ease;
+}
+
+.p:hover {
+    color: hsl(180, 66%, 49%);
+}
+
+.attribution {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 70px;
+    color: hsl(180, 66%, 49%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    transition: 0.3s all ease;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: hsl(180, 66%, 49%);
+    text-decoration: underline;
+}
+
+.div5 img {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .nav {
+        position: sticky;
+        top: 0;
+        background: white;
+        max-width: 1440px;
+        margin: 0 auto;
+        z-index: 100000;
+    }
+    .navbar {
+        padding: 30px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div1 {
+        display: flex;
+        align-items: center;
+    }
+    .div1 img {
+        width: 100px;
+        height: 28px;
+    }
+    .ul1 {
+        display: flex;
+        list-style: none;
+        margin: 0 0 0 -10px;
+    }
+    .ul1 li {
+        margin-right: 30px;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        font-weight: 700;
+        transition: 0.3s all ease;
+    }
+    .ul1 li:hover {
+        color: hsl(260, 8%, 14%);
+    }
+    .div2 {
+        display: flex;
+    }
+    .div2 div:first-child {
+        background: none;
+        padding: 5px 30px;
+        color: hsl(0, 1%, 61%);
+    }
+    .div2 div {
+        background: hsl(180, 66%, 49%);
+        padding: 5px 18px;
+        border-radius: 30px;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: white;
+        transition: 0.3s all ease;
+    }
+    .sign:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div3 {
+        padding: 30px 50px 50px 50px;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div4 {
+        width: 43%;
+    }
+    .div4 p:first-child {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        margin: 0;
+        color: hsl(260, 8%, 14%)
+    }
+    .div4 P {
+        font-size: 16px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        margin: 10px 0 30px 0;
+    }
+    .div4 div {
+        background: hsl(180, 66%, 49%);
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        width: max-content;
+        transition: 0.3s all ease;
+    }
+    .div4 div:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div5 {
+        width: 50%;
+        height: 100%;
+        background-image: none;
+    }
+    .div5 img {
+        display: block;
+        width: 100%;
+    }
+    .div6 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        top: -74px;
+        padding: 0px 50px 50px 50px;
+    }
+    .div7 {
+        background-image: url("./images/bg-shorten-desktop.svg");
+        background-size: cover;
+        padding: 50px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-color: hsl(255, 11%, 22%);
+        border-radius: 10px;
+    }
+    input {
+        font-size: 16px;
+        padding: 15px 20px;
+        width: 80%;
+        border-radius: 10px;
+        border: none;
+    }
+    input:focus {
+        outline: 2px solid hsl(0, 87%, 67%);
+        outline-offset: 1px;
+    }
+    #button {
+        font-size: 14px;
+        padding: 15px 20px;
+        width: 18%;
+        border-radius: 10px;
+        background: hsl(180, 66%, 49%);
+        transition: 0.5s all ease;
+        cursor: pointer;
+        border: none;
+    }
+    .show {
+        display: block !important;
+    }
+    #button:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .a {
+        text-decoration: none;
+        transition: 0.3s all ease;
+        color: hsl(260, 8%, 14%);
+    }
+    .a:hover {
+        color: hsl(0, 1%, 61%);
+    }
+    .wrap {
+        background: white;
+        border-radius: 10px;
+        margin-top: 20px;
+        z-index: 10000;
+        display: none;
+    }
+    .div8 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+    .div8 p {
+        margin: 0;
+    }
+    .div9 {
+        display: flex;
+        align-items: center;
+        background: hsl(180, 66%, 49%);
+        padding: 7px 15px;
+        border-radius: 5px;
+    }
+    .div10 {
+        padding: 170px 50px 100px 50px;
+        height: max-content;
+        max-width: 1440px;
+        margin: 80px auto 0 auto;
+        position: relative;
+    }
+    .cover {
+        background: hsl(255, 18%, 96%);
+    }
+    .div16 {
+        text-align: center;
+    }
+    .div16 p {
+        margin: 0;
+    }
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .div16 .p1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: hsl(260, 8%, 14%);
+        margin-bottom: 10px;
+    }
+    .div16 .p2 {
+        font-size: 17px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        margin-bottom: 10px;
+    }
+    .div11 {
+        height: 7px;
+        background: hsl(180, 66%, 49%);
+        max-width: 1440px;
+        margin: 250px auto 0 auto;
+    }
+    .div12 {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 30px;
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: -150px;
+    }
+    .border {
+        background: hsl(255, 11%, 22%);
+        width: 75px;
+        padding: 15px 0 15px 18px;
+        border-radius: 50%;
+        margin: -35px 0 30px 15px;
+    }
+    .borde {
+        background: hsl(255, 11%, 22%);
+        width: 75px;
+        padding: 18px 1px 12px 17px;
+        border-radius: 50%;
+        margin: -35px 0 30px 15px;
+    }
+    .bord {
+        background: hsl(255, 11%, 22%);
+        width: 77px;
+        padding: 14px 0 8px 14px;
+        border-radius: 50%;
+        margin: -35px 0 30px 15px;
+    }
+    .div13 {
+        text-align: left;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        height: max-content
+    }
+    .div14 {
+        text-align: left;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        margin-top: 35px;
+        height: max-content
+    }
+    .div15 {
+        text-align: left;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        margin-top: 70px;
+        height: max-content
+    }
+    .div13 p {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .div14 p {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .div15 p {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .p3 {
+        color: hsl(255, 11%, 22%) !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+        font-weight: 700 !important;
+    }
+    .div17 {
+        background: hsl(257, 27%, 26%);
+        background-image: url("./images/bg-boost-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .div18 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px 50px 50px 50px;
+    }
+    .div18 p {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0 20px 0;
+    }
+    .div18 div {
+        color: white;
+        width: max-content;
+        margin: 0 auto;
+        padding: 12px 40px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 30px;
+        background: hsl(180, 66%, 49%);
+        transition: 0.3s all ease;
+    }
+    .div18 div:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div19 {
+        background: hsl(260, 8%, 14%);
+    }
+    .div20 {
+        max-width: 1440px;
+        padding: 50px 50px 50px 50px;
+        margin: 0 auto;
+    }
+    .div21 {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    .div22 p {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .div23 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .div23 div {
+        margin: 0 35px;
+    }
+    .div23 div p:first-child {
+        font-weight: 700;
+        color: white;
+    }
+    .div23 div p {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        transition: 0.5s all ease;
+    }
+    .div23 div p:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .div24 img {
+        margin-right: 12px;
+    }
+    .p {
+        transition: 0.5s all ease;
+    }
+    .p:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .attribution {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 70px;
+        color: hsl(180, 66%, 49%);
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+        transition: 0.3s all ease;
+        text-decoration: none;
+    }
+    .attribution a:hover {
+        color: hsl(180, 66%, 49%);
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        position: sticky;
+        top: 0;
+        background: white;
+        max-width: 1440px;
+        margin: 0 auto;
+        z-index: 100000;
+    }
+    .navbar {
+        padding: 30px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div1 {
+        display: flex;
+        align-items: center;
+    }
+    .div1 img {
+        width: 80px;
+        height: 24px;
+    }
+    .ul1 {
+        display: flex;
+        list-style: none;
+        margin: 0 0 0 -10px;
+        display: none;
+    }
+    .ul1 li {
+        margin-right: 30px;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        font-weight: 700;
+        transition: 0.3s all ease;
+    }
+    .ul1 li:hover {
+        color: hsl(260, 8%, 14%);
+    }
+    .div2 {
+        display: flex;
+        display: none;
+    }
+    .div2 div:first-child {
+        background: none;
+        padding: 5px 30px;
+        color: hsl(0, 1%, 61%);
+    }
+    .div2 div {
+        background: hsl(180, 66%, 49%);
+        padding: 5px 18px;
+        border-radius: 30px;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: white;
+        transition: 0.3s all ease;
+    }
+    .sign:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div3 {
+        padding: 30px 30px 50px 30px;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div4 {
+        width: 100%;
+        text-align: center;
+    }
+    .div4 p:first-child {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 50px;
+        margin: 0;
+        color: hsl(260, 8%, 14%)
+    }
+    .div4 P {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        margin: 10px 0 30px 0;
+    }
+    .div4 div {
+        background: hsl(180, 66%, 49%);
+        padding: 12px 30px;
+        border-radius: 40px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        width: max-content;
+        margin: 0 auto;
+        transition: 0.3s all ease;
+    }
+    .div4 div:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div5 {
+        width: 100%;
+        height: 100%;
+        background-image: none;
+    }
+    .div100 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .div5 img {
+        display: none;
+        width: 100%;
+    }
+    .div100 img {
+        width: 100%;
+    }
+    .div6 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        top: -70px;
+        padding: 0px 30px 50px 30px;
+    }
+    .div7 {
+        background-image: url("./images/bg-shorten-mobile.svg");
+        background-size: cover;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-color: hsl(255, 11%, 22%);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        font-size: 15px;
+        padding: 15px 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    input:focus {
+        outline: 2px solid hsl(0, 87%, 67%);
+        outline-offset: 1px;
+    }
+    #button {
+        font-size: 14px;
+        padding: 15px 20px;
+        width: 100%;
+        border-radius: 10px;
+        background: hsl(180, 66%, 49%);
+        transition: 0.5s all ease;
+        cursor: pointer;
+        border: none;
+    }
+    .show {
+        display: block !important;
+    }
+    #button:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .a {
+        text-decoration: none;
+        transition: 0.3s all ease;
+        color: hsl(260, 8%, 14%);
+    }
+    .a:hover {
+        color: hsl(0, 1%, 61%);
+    }
+    .wrap {
+        background: white;
+        border-radius: 10px;
+        margin-top: 20px;
+        z-index: 10000;
+        display: none;
+    }
+    .div8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: 16px;
+        padding: 15px 10px;
+        border-radius: 10px;
+    }
+    .div8 p {
+        margin: 0;
+        font-size: 9px;
+    }
+    .div9 {
+        display: flex;
+        align-items: left;
+        background: hsl(180, 66%, 49%);
+        padding: 7px 15px;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .div10 {
+        padding: 160px 30px 80px 30px;
+        height: max-content;
+        max-width: 1440px;
+        margin: 80px auto 0 auto;
+        position: relative;
+    }
+    .cover {
+        background: hsl(255, 18%, 96%);
+    }
+    .div16 {
+        text-align: center;
+    }
+    .div16 p {
+        margin: 0;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+    .div16 .p1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: hsl(260, 8%, 14%);
+        margin-bottom: 10px;
+    }
+    .div16 .p2 {
+        font-size: 13px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        margin-bottom: 10px;
+    }
+    .div11 {
+        height: 700px;
+        width: 5px;
+        background: hsl(180, 66%, 49%);
+        max-width: 1440px;
+        margin: 120px auto 0 auto;
+    }
+    .div12 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        grid-gap: 30px;
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: -720px;
+    }
+    .border {
+        background: hsl(255, 11%, 22%);
+        width: 90px;
+        padding: 20px 0 20px 0px;
+        border-radius: 50%;
+        margin: -35px auto 30px auto;
+    }
+    .borde {
+        background: hsl(255, 11%, 22%);
+        width: 90px;
+        padding: 22px 1px 17px 0px;
+        border-radius: 50%;
+        margin: -35px auto 30px auto;
+    }
+    .bord {
+        background: hsl(255, 11%, 22%);
+        width: 90px;
+        padding: 18px 0 12px 0px;
+        border-radius: 50%;
+        margin: -35px auto 30px auto;
+    }
+    .div13 {
+        text-align: center;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        height: max-content;
+        width: 297.6px;
+        margin: 0 auto;
+    }
+    .div14 {
+        text-align: center;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        margin-top: 70px;
+        height: max-content;
+        width: 297.6px;
+        margin: 70px auto;
+    }
+    .div15 {
+        text-align: center;
+        padding: 0 25px 40px 25px;
+        border-radius: 10px;
+        background: white;
+        height: max-content;
+        width: 297.6px;
+        margin: 0 auto;
+    }
+    .div13 p {
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .div14 p {
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .div15 p {
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+    }
+    .p3 {
+        color: hsl(255, 11%, 22%) !important;
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+        font-weight: 700 !important;
+    }
+    .div17 {
+        background: hsl(257, 27%, 26%);
+        background-image: url("./images/bg-boost-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .div18 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 50px 30px 70px 30px;
+    }
+    .div18 p {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0 20px 0;
+    }
+    .div18 div {
+        color: white;
+        width: max-content;
+        margin: 0 auto;
+        padding: 14px 40px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 30px;
+        background: hsl(180, 66%, 49%);
+        transition: 0.3s all ease;
+    }
+    .div18 div:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .div19 {
+        background: hsl(260, 8%, 14%);
+    }
+    .div20 {
+        max-width: 1440px;
+        padding: 50px 30px 50px 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .div21 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        color: white;
+    }
+    .div22 p {
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+    }
+    .div23 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .div23 div {
+        margin: 0 35px;
+    }
+    .div23 div p:first-child {
+        font-weight: 700;
+        color: white;
+        margin: 20px
+    }
+    .div23 div p {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(0, 1%, 61%);
+        transition: 0.5s all ease;
+    }
+    .div23 div p:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .div24 {
+        margin-top: 30px
+    }
+    .div24 img {
+        margin-right: 15px;
+    }
+    .p {
+        transition: 0.5s all ease;
+    }
+    .p:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 70px;
+        color: hsl(180, 66%, 49%);
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+        transition: 0.3s all ease;
+        text-decoration: none;
+    }
+    .attribution a:hover {
+        color: hsl(180, 66%, 49%);
+        text-decoration: underline;
+    }
+    .drop {
+        display: block;
+    }
+    .drop div:first-child {
+        margin: 0;
+    }
+    .drop div {
+        width: 25px;
+        margin-top: 5px;
+        height: 3px;
+        background: hsl(0, 1%, 61%);
+        position: relative;
+    }
+    .down {
+        display: none;
+        background: hsl(257, 27%, 26%);
+        border-radius: 10px;
+        padding: 40px 30px;
+    }
+    .up {
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+    }
+    .up p {
+        margin: 0;
+        text-align: center;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .up a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s all ease;
+    }
+    .up a:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .bottom {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bottom div {
+        background: hsl(180, 66%, 49%);
+        margin-top: 20px;
+        padding: 15px;
+        width: 100%;
+        font-size: 19px;
+        font-weight: 700;
+        border-radius: 40px;
+        text-align: center;
+        color: white;
+    }
+    .signup {
+        transition: 0.3s all ease;
+    }
+    .signup:hover {
+        background: hsl(180, 53%, 73%);
+    }
+    .bottom div:first-child {
+        background: none;
+    }
+    .out {
+        position: absolute;
+        top: 84px;
+        left: 0;
+        width: 100%;
+        padding: 0 30px;
+        opacity: 100%;
+        display: block;
+    }
+    .display {
+        display: block !important;
+    }
+    .body {
+        overflow: hidden;
+    }
+}
