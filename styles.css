@@ -111,7 +111,7 @@ html {
 }
 
 .div3 {
-    padding: 0px 100px 50px 100px;
+    padding: 0px 0px 50px 100px;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -513,7 +513,7 @@ input:focus {
         z-index: 100000;
     }
     .navbar {
-        padding: 30px 50px;
+        padding: 30px 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -563,7 +563,7 @@ input:focus {
         background: hsl(180, 53%, 73%);
     }
     .div3 {
-        padding: 30px 50px 50px 50px;
+        padding: 30px 0px 50px 30px;
         max-width: 1440px;
         margin: 0 auto;
         display: flex;
@@ -616,7 +616,7 @@ input:focus {
         max-width: 1440px;
         margin: 0 auto;
         top: -74px;
-        padding: 0px 50px 50px 50px;
+        padding: 0px 30px 50px 30px;
     }
     .div7 {
         background-image: url("./images/bg-shorten-desktop.svg");
@@ -690,17 +690,19 @@ input:focus {
         border-radius: 5px;
     }
     .div10 {
-        padding: 170px 50px 100px 50px;
+        padding: 170px 30px 100px 30px;
         height: max-content;
         max-width: 1440px;
         margin: 80px auto 0 auto;
         position: relative;
     }
-    .cover {
+    .over {
         background: hsl(255, 18%, 96%);
     }
     .div16 {
         text-align: center;
+        width: 100%;
+        margin: 0 auto;
     }
     .div16 p {
         margin: 0;
@@ -731,7 +733,7 @@ input:focus {
         display: flex;
         justify-content: space-between;
         grid-gap: 30px;
-        max-width: 1440px;
+        width: 100%;
         margin: 0 auto;
         margin-top: -150px;
     }
@@ -780,23 +782,23 @@ input:focus {
         height: max-content
     }
     .div13 p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div14 p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div15 p {
-        font-size: 12px;
+        font-size: 17px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .p3 {
         color: hsl(255, 11%, 22%) !important;
-        font-size: 13px !important;
+        font-size: 20px !important;
         margin-bottom: 10px !important;
         font-weight: 700 !important;
     }
@@ -809,7 +811,7 @@ input:focus {
     .div18 {
         max-width: 1440px;
         margin: 0 auto;
-        padding: 20px 50px 50px 50px;
+        padding: 20px 30px 50px 30px;
     }
     .div18 p {
         color: white;
@@ -837,7 +839,7 @@ input:focus {
     }
     .div20 {
         max-width: 1440px;
-        padding: 50px 50px 50px 50px;
+        padding: 50px 30px 50px 30px;
         margin: 0 auto;
     }
     .div21 {
