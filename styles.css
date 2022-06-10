@@ -455,7 +455,7 @@ input:focus {
 
 .div23 div p:first-child {
     font-weight: 700;
-    color: white;
+    color: white !important;
 }
 
 .div23 div p {
