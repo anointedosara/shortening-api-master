@@ -593,8 +593,9 @@ input:focus {
         font-size: 16px;
         font-weight: 500;
         color: white;
-        width: max-content;
+        width: 200px;
         transition: 0.3s all ease;
+        text-align: center;
     }
     .div4 div:hover {
         background: hsl(180, 53%, 73%);
