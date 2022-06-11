@@ -12,7 +12,8 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    width: 100%
+    width: 100%;
+    background: hsl(260, 8%, 14%);
 }
 
 .div100 {
