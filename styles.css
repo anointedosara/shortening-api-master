@@ -783,25 +783,22 @@ input:focus {
         height: max-content
     }
     .div13 p {
-        font-size: 6px !important;
+        font-size: 15px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div14 p {
-        font-size: 6px !important;
+        font-size: 15px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div15 p {
-        font-size: 6px !important;
+        font-size: 15px;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .p3 {
-        color: hsl(255, 11%, 22%) !important;
-        font-size: 11px !important;
-        margin-bottom: 10px !important;
-        font-weight: 700 !important;
+        font-size: 20px !important;
     }
     .div17 {
         background: hsl(257, 27%, 26%);
