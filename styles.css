@@ -783,17 +783,17 @@ input:focus {
         height: max-content
     }
     .div13 p {
-        font-size: 9px;
+        font-size: 9px !important;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div14 p {
-        font-size: 9px;
+        font-size: 9px !important;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
     .div15 p {
-        font-size: 9px;
+        font-size: 9px !important;
         font-weight: 500;
         color: hsl(0, 1%, 61%);
     }
@@ -1283,6 +1283,8 @@ input:focus {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        max-width: 1440px;
+        margin: 0 auto;
     }
     .div23 div {
         margin: 0 35px;
@@ -1405,5 +1407,11 @@ input:focus {
     }
     .body {
         overflow: hidden;
+    }
+    .overflow {
+        overflow: scroll;
+    }
+    .disp {
+        display: none;
     }
 }

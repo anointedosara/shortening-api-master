@@ -25,4 +25,5 @@ let down = document.querySelector(".down");
 display.addEventListener("click", () => {
     down.classList.toggle("display");
     document.getElementById("body").classList.toggle("body")
+
 })
